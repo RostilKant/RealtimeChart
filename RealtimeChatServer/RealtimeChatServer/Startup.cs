@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RealtimeChatServer.HubConfig;
 
 namespace RealtimeChatServer
 {
@@ -31,6 +32,9 @@ namespace RealtimeChatServer
                         .AllowCredentials()
                         .AllowAnyMethod()
                         .AllowAnyHeader()));
+
+            services.AddSignalR();
+            
             services.AddControllers();
         }
 
@@ -50,7 +54,11 @@ namespace RealtimeChatServer
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+                endpoints.MapHub<ChartHub>("/chart");
+            });
         }
     }
 }
