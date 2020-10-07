@@ -15,16 +15,7 @@
       <list>
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/RealtimeChatServer.sln" />
         <option value="$PROJECT_DIR$/Entities/Class1.cs" />
-        <option value="$PROJECT_DIR$/Entities/Models/ChartModel.cs" />
-        <option value="$PROJECT_DIR$/Entities/HubConfig/ChartHub.cs" />
-        <option value="$PROJECT_DIR$/RealtimeChatServer/HubConfig/ChartHub.cs" />
-        <option value="$PROJECT_DIR$/RealtimeChatServer/Startup.cs" />
-        <option value="$PROJECT_DIR$/Entities/TimerFeatures/TimerManager.cs" />
-        <option value="$PROJECT_DIR$/Entities/DataStorage.cs" />
-        <option value="$PROJECT_DIR$/Entities/DataStorage/DataManager.cs" />
-        <option value="$PROJECT_DIR$/RealtimeChatServer/Controllers/ChartController.cs" />
       </list>
     </option>
   </component>
@@ -84,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602079049765</updated>
-      <workItem from="1602079061333" duration="5801000" />
+      <workItem from="1602079061333" duration="1809000" />
     </task>
     <servers />
   </component>
@@ -95,15 +86,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="278" y="132" width="804" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1602081920175">
-      <screen x="0" y="25" width="1366" height="743" />
-    </state>
-    <state x="278" y="132" width="804" height="530" key="Rider.ProjectTemplateDialog.Size/0.25.1366.743@0.25.1366.743" timestamp="1602081920175" />
-    <state x="0" y="25" width="649" height="743" key="find.popup" timestamp="1602081799008">
-      <screen x="0" y="25" width="1366" height="743" />
-    </state>
-    <state x="0" y="25" width="649" height="743" key="find.popup/0.25.1366.743@0.25.1366.743" timestamp="1602081799008" />
   </component>
 </project>

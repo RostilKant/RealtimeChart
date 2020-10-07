@@ -1,0 +1,6 @@
+csproj.*
+.xml
+.cache
+.json
+.info
+.iml

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/RealtimeChatServer.csproj",
-      "projectName": "RealtimeChatServer",
-      "projectPath": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/RealtimeChatServer.csproj",
+      "projectUniqueName": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/Entities.csproj",
+      "projectName": "Entities",
+      "projectPath": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/Entities.csproj",
       "packagesPath": "/home/rostil/.nuget/packages/",
-      "outputPath": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/obj/",
+      "outputPath": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/rostil/.nuget/NuGet/NuGet.Config"
@@ -52,9 +52,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
