@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/Entities.csproj": {
-            "projectPath": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/Entities.csproj"
+          "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Services/Services.csproj": {
+            "projectPath": "/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Services/Services.csproj"
           }
         }
       }

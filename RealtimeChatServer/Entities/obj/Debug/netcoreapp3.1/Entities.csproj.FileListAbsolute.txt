@@ -1,0 +1,9 @@
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/bin/Debug/netcoreapp3.1/Entities.deps.json
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/bin/Debug/netcoreapp3.1/Entities.dll
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/bin/Debug/netcoreapp3.1/Entities.pdb
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/obj/Debug/netcoreapp3.1/Entities.csprojAssemblyReference.cache
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfoInputs.cache
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfo.cs
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.CoreCompileInputs.cache
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/obj/Debug/netcoreapp3.1/Entities.dll
+/home/rostil/Programming/ASP.NET Core/RealtimeChat/RealtimeChatServer/Entities/obj/Debug/netcoreapp3.1/Entities.pdb

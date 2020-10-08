@@ -1,16 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Entities.HubConfig;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using RealtimeChatServer.HubConfig;
+using Services;
 
 namespace RealtimeChatServer
 {
@@ -28,12 +22,16 @@ namespace RealtimeChatServer
         {
             services.AddCors(options =>
                 options.AddPolicy("CorsPolicy", builder =>
-                    builder.WithOrigins("http://localhost:4200")
+                    builder
                         .AllowCredentials()
                         .AllowAnyMethod()
-                        .AllowAnyHeader()));
+                        .AllowAnyHeader()
+                        .WithOrigins("http://localhost:4200")));
 
             services.AddSignalR();
+
+            services.AddTransient<ITimerService, TimerService>();
+            services.AddTransient<IChartService, ChartService>();
             
             services.AddControllers();
         }

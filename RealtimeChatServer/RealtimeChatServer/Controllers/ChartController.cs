@@ -1,8 +1,5 @@
-using Entities.DataStorage;
-using Entities.TimerFeatures;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
-using RealtimeChatServer.HubConfig;
+using Services;
 
 namespace RealtimeChatServer.Controllers
 {
@@ -10,19 +7,14 @@ namespace RealtimeChatServer.Controllers
     [ApiController]
     public class ChartController : ControllerBase
     {
-        private readonly IHubContext<ChartHub> _hub;
-
-        public ChartController(IHubContext<ChartHub> hub)
+        private readonly IChartService _chartService;
+        public ChartController(IChartService chartService)
         {
-            _hub = hub;
+            _chartService = chartService;
         }
-        
-        
         public IActionResult Get()
         {
-            var timeManager = new TimerManager(() =>
-                _hub.Clients.All.SendAsync("transferchartdata", DataManager.GetData()));
-
+            _chartService.PostDataToClient();
             return Ok(new {Message = "Request completed"});
         }
     }

@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeChatServer", "Realt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{F4C0BB22-5CB5-43C8-8E16-9AC33FFB3995}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{376FF288-F884-4023-AC5D-316F641B7400}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{F4C0BB22-5CB5-43C8-8E16-9AC33FFB3995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4C0BB22-5CB5-43C8-8E16-9AC33FFB3995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4C0BB22-5CB5-43C8-8E16-9AC33FFB3995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376FF288-F884-4023-AC5D-316F641B7400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376FF288-F884-4023-AC5D-316F641B7400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376FF288-F884-4023-AC5D-316F641B7400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376FF288-F884-4023-AC5D-316F641B7400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
